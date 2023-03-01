@@ -1,0 +1,11 @@
+{
+    "provider": "aws-s3",
+    "providerOptions": {
+      "accessKeyId": "${process.env.ASIAUPSFB4FI3AS7IM5T}",
+      "secretAccessKey": "${process.env.KVlIIym2S8iZWsXDh9sOA9fGbSDW9olV43rvKdmn}",
+      "region": "${process.env.us-east-1}",
+      "params": {
+        "Bucket": "${process.env.aws-deploy-mit-assignment}"
+      }
+    }
+  }
