@@ -1,0 +1,7 @@
+Use these tutorials on how to deploy strapi to aws
+
+Read this article
+https://docs.strapi.io/dev-docs/deployment/amazon-aws
+
+Here is a video as well
+https://www.youtube.com/watch?v=SR_ZNK4etzc
