@@ -59,7 +59,7 @@ function RestaurantList(props) {
             top={true}
             style={{ height: 200 }}
             src={
-              `http://localhost:1337` + res.image.url
+              `https://strapi-api-gwlj.onrender.com` + res.image.url
             }
           />
           <CardBody style={{backgroundColor: '#f0f5f6'}}>
