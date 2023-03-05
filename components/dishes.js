@@ -55,7 +55,7 @@ const GET_RESTAURANT_DISHES = gql`
                 <CardImg 
                   top={true}
                   // style={{ height: 150, width:150 }}
-                  src={`https://strapi-api-gwlj.onrender.com/admin${res.image.url}`}
+                  src={`https://strapi-api-gwlj.onrender.com/${res.image.url}`}
                 />
                 <CardBody>
                   <CardTitle style={{ fontSize: '1.3rem', textTransform: 'uppercase', fontFamily: "Segoe UI Symbol" }}>{res.name}</CardTitle>
