@@ -23,3 +23,5 @@ services:
         generateValue: true
       - key: APP_KEYS
         generateValue: true
+      - key:  NEXT_PUBLIC_API_URL:
+        value: https://strapi-5b0f.onrender.com
